@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" style="margin-top: 0">
+    <head>
+        <meta charset="utf-8" />
+        <!--Page Title-->
+        <title>Website Designer and Developer - Hardie Ahmed</title>
+        <!--Meta Keywords and Description-->
+        <meta name="keywords" content="UX, UI, HTML, XHTML, CSS, JavaScript, PHP, MySQL" />
+        <meta name="description" content="Website designer and developer, Freelancer" />
+        <meta name="author" content="Hardie Ahmed" />
+        <!--To give the browser instructions on how to control the page's dimension and scalling-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Link to the CSS file-->
+        <link rel="stylesheet" type="text/css" href="style/mystyle.css" />
+        <!-- A link to use Font Awesome (or CSS) icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!--Main Navigation-->
+            <nav class="topnav" id="my-nav">
+                <a href="#" class="home-icon"><i class="fa fa-home" style="font-size: 32px;padding-top: 5px;"></i></a>
+                <a href="#">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#what-i-do">WHAT I DO</a>
+                <a href="#my-work">MY WORK</a>
+                <a href="#resume">RESUME</a>
+                <a href="#contact">CONTACT</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars" style="font-size: 32px;padding-top: 5px;"></i></a>
+            </nav>
+        <!--End of Main Navigation-->
+        <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+        <script>
+                function myFunction() {
+                var x = document.getElementById("my-nav");
+                if (x.className === "topnav") {
+                x.className += " responsive";
+                 } else {
+                x.className = "topnav";
+                 }
+                }
+        </script>     
+            <!--End of Main Navigation-->
+        <div  id="intro">            
+            <!--Banner content-->
+            <div id="intro-title">
+                <h1 id="main-title">HARDIE AHMED</h1><br>
+                <h2 id="job-title">WEBSITE DESIGNER AND DEVELOPER</h2><br/>
+            </div>
+            <!--End of job title-->
+<!--Social icons in header-->
+        <div id="social-div">
+            <a title="facebook" target="_blank" href="https://www.facebook.com/"> <img src="images/icons/facebook.png"/> </a>
+            <a title="linkedin" target="_blank" href="https://www.linkedin.com/in/hardie-ahmed"> <img src="images/icons/linkedin.png" /> </a>              
+            <a title="twitter" target="_blank" href="https://www.twitter.com/HardieAhmed"> <img src="images/icons/twitter.png" /> </a>                                
+            <a title="instagram" target="_blank" href="https://www.instagram.com/HardieAhmed"><img src="images/icons/instagram.png" /> </a>                       
+        </div>
+                        <!--End of social icons in header-->
+                        
+        </div>
+        <!--End of Intro-->
+        
+        <!--About Me-->
+        <div class="container" id="about">
+            <div class="title"> <h1>ABOUT</h1> </div>
+            <!--Self-Description (Profile)-->
+            <div id="profile">
+                
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet orci eu nunc ultricies pretium. Suspendisse elementum pretium enim sed pellentesque. Nullam iaculis, orci sed scelerisque pulvinar, lorem dolor consectetur ex, et luctus elit magna a sapien. Curabitur non magna id eros sodales </p>            
+            </div>
+            <!--End of Self-Description-->
+            <!--Profile Picture-->
+            <div id="personal-pic">
+                <img src="images/hardie.jpg" alt="A Picture of Me" width="900" height="400"/>
+            </div>
+            <!--End of Profile Picure-->
+        </div>
+        <!--End of About Me-->
+        
+        <!--What I do-->
+        <div class="container" id="what-i-do">
+            <div class="title"> <h1>WHAT I DO</h1> </div>
+            <!--define the columns' numbers for these columns-->
+            <!--First Column-->
+            <div class="row">
+            <div class="col-6 col-t-6 mins">
+                <h4>WEBSITE DESIGN</h4>
+                <P class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ligula libero, vestibulum nec interdum bibendum, pretium et turpis. Phasellus lacinia nec est eget ultrices. Nunc mattis ipsum sed tellus hendrerit sollicitudin. Quisque dignissim mattis nisl, sed facilisis purus dictum at. Nam consectetur rutrum elit quis tincidunt.</P>
+            </div>
+            <!--End of First Column-->
+            <!--Second Column-->
+            <div class="col-6 col-t-6 mins">
+                <h4>WEBSITE DEVELOPMENT</h4>
+                <P class="content">Phasellus quis volutpat orci, non luctus orci. Phasellus pharetra ultrices est, sed varius sapien blandit in. Phasellus id accumsan odio, at aliquam ipsum. Phasellus in vulputate eros. Duis accumsan justo eu velit semper, sit amet porttitor lacus consectetur. Donec convallis dignissim purus, vel auctor eros malesuada quis.</P>
+            </div>
+            <!--End of Second Column--> 
+                
+            </div>
+            <!--End of row-->
+
+        </div>
+        <!--End of "What I do"-->
+        
+        
+        <!--My Work-->
+        <div class="container" id="my-work">
+            <div class="title"> <h1>MY WORK</h1> </div>
+            <!--define the columns' numbers for these columns-->
+            <!--First Column-->
+            <div class="row">
+            <div class="col-4" id="my-work-promo">
+                <p id="success">Success</p>
+                <h3>HOW I HELP YOU TO GAIN YOUR GOAL</h3>
+                <P class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus purus eget augue imperdiet, vel tincidunt lectus interdum. Nunc nec sem mi. Fusce pulvinar viverra rutrum. </P>
+            </div>
+            <!--End of First Column-->
+                
+            <!--Second column-->
+            <div class="col-4 col-t-6 min">
+            <!--AWSOME DESIGN-->
+            <div class="feature">
+                <div class="web-icons">
+                    <img src="images/icons/html-css.png" alt="HTML5 icon" style="width: 72px; height: 36px;" />
+                        
+                </div>
+                <h4>AWESOME DESIGN</h4>
+                <p class="content">Quisque tristique mattis orci nec volutpat. Duis dapibus at nibh vehicula cursus. Nam facilisis pharetra purus, sit amet varius nunc semper non. Pellentesque vel orci nulla. Mauris sit amet enim lobortis, varius arcu non, fermentum magna.<p>
+            </div>
+            <!--End of AWESOME DESIGN-->
+            <!--EASY TO USE-->
+            <div class="feature">
+                <div class="web-icons">
+                    <img src="images/icons/bolt.png" alt="BOLT icon" style="width: 36px; height: 36px;" />
+                </div>
+                <h4>EASY TO USE</h4>
+                <p class="content">Quisque tristique mattis orci nec volutpat. Duis dapibus at nibh vehicula cursus. Nam facilisis pharetra purus, sit amet varius nunc semper non. Pellentesque vel orci nulla. Mauris sit amet enim lobortis, varius arcu non, fermentum magna.<p>
+            </div>
+            <!--End of EASY TO USE-->
+            </div>
+            <!--End of second column-->
+            
+            <!--Third column-->
+            <div class="col-4 col-t-6 min">
+            <!--FULLY RESPONSIVE-->
+            <div class="feature">
+                <div class="web-icons">
+                    <img src="images/icons/responsive.png" alt="RESPONSIVENESS icon" style="width: 36px; height: 36px;" />
+                </div>
+                <h4>FULLY RESPONSIVE</h4>
+                <p class="content">Quisque tristique mattis orci nec volutpat. Duis dapibus at nibh vehicula cursus. Nam facilisis pharetra purus, sit amet varius nunc semper non. Pellentesque vel orci nulla. Mauris sit amet enim lobortis, varius arcu non, fermentum magna.<p>
+            </div>
+            <!--End of AFULLY RESPONSIVE-->
+                
+            <!--SECURE -->
+            <div class="feature">
+                <div class="web-icons">
+                    <img src="images/icons/shield.png" alt="SECURITY icon" style="width: 36px; height: 36px;" />
+                </div>
+                <h4>SECURE</h4>
+                <p class="content">Quisque tristique mattis orci nec volutpat. Duis dapibus at nibh vehicula cursus. Nam facilisis pharetra purus, sit amet varius nunc semper non. Pellentesque vel orci nulla. Mauris sit amet enim lobortis, varius arcu non, fermentum magna.<p>
+            </div>
+            <!--End of SECURE-->
+            </div>
+            <!--End of Third column-->
+            
+            </div>
+            <!--End of row-->
+        </div>
+        <!--End of My Work-->
+        
+        <!--Setting a background color-->
+        <div id="body-bg"></div>
+        
+        <!--My Resume-->
+        <div class="container" id="resume">
+            <div id="resume-part">
+                <div class="title" id="resume"> <h1>RESUME</h1> </div>
+                <p class="content">If you would like to see my resume, please click on the button below to download my resmue in PDF:</p><br>
+                <input id="download-btn" type="button" value="DOWNLOAD RESUME" onClick="location.href='files/HardieTariqAhmed.pdf'" />
+                </div>
+            <!--Additional to the resume part to ask the visitor to see my resume-->
+            <div>
+                <p id="resume-contact">So, you decided to hire me? Or stilll have questions?</p>
+                <input id="contact-btn" type="button" value="CONTACT ME" onClick="window.location.href='#contact'" />
+            </div>
+            <!--End of the additional part-->
+        </div>
+        <!--CONTACT-->
+        <div class="container" id="contact">
+            <div class="title"> <h1>CONTACT</h1> </div>
+            <!--Left column - Contact instruction and information-->
+            <div class="row">
+            <div class="col-6 col-t-12" id="contact-me">
+                <div id="contact-instr">
+                    <!--A bit of friendly instruction-->
+                    <h4>CONTACT ME TODAY</h4>
+                    <p class="content">Please, feel free to contact me if you have any questions or comments about the services I offer.
+                    Also, you could always just send me a friendly hello. </p>
+                </div>
+                <!--End of friendly instruction-->
+                <!--Address informations-->
+                <div id="contact-info">
+                    <p><i class="fa fa-phone" ></i> &nbsp; (+964) 750 154 2194</p>
+                    <p><i class="fa fa-envelope"></i> &nbsp; hardie.tariq@hotmail.com</p>
+                    <p><i class="fa fa-home"></i> &nbsp; Fermanberan, Hajiawa, Raniyah, As Sulaymaniyah, Iraq</p>
+                </div>
+                <!--End of Address information-->              
+            </div>
+            <!--End of Left Column-->
+            <!--Right Column - Contacting form-->
+            <div class="col-6 col-t-12" id="contact-form">
+                    <!-- The form is scriptless! (i.e., only HTML and CSS) -->
+                <form id="contact-form" action="#" method="post">
+                        <div class="row">
+                            <label for="name">Your Name</label><br>
+                            <input class="input" id="name" type="text" size="40" /><br>
+                        </div>
+                        <div class="row">
+                            <label for="email">Your Email</label><br>
+                            <input class="input" id="email" type="text" size="40" /><br>
+                        </div>
+                        <div class="row">
+                            <label id="message">Your Message</label><br>
+                            <textarea class="input" id="message" rows="12" cols="30"></textarea>
+                        </div>
+                    <input id="message-button" type="submit" value="SEND MESSAGE" />
+                </form>
+                    <!--End of form-->
+            </div>
+                <!--End of Contacting form-->  
+            </div>
+        </div>
+        <!--End of CONTACT-->
+        <footer class="container">
+            
+            <div id="footer-text">
+                <p>Get a website that looks amazing and actually works.</p><br>
+            </div>
+            <div id="footer-social-div">
+                        <a href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    
+                        <a href="http://www.linkedin.com/in/hardie-ahmed" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    
+                        <a href="http://www.twitter.com/HardieAhmed" target="_blank"><i class="fa fa-twitter"></i></a>
+                    
+                        <a href="http://www.instagram.com/HardieAhmed" target="_blank"><i class="fa fa-instagram"></i></a>
+                    
+            </div><br>
+            <!--End social div-->
+            <hr style="width: 65%">
+            <br>
+            <div id="copyright">
+                <p>&copy; 2017 All Rights Reserved. Designed and Developed by Hardie Ahmed</p>
+            </div>
+            <!--End copyright div-->
+        </footer>
+        <!--End footer-->
+    </body>
+    <!--End body-->
+</html>
